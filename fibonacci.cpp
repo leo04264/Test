@@ -15,3 +15,11 @@ int fibonacci(int i) {
     }
     return vi[i];
 }
+
+int main() {
+    cout << fibonacci(0) << endl;// 0
+    cout << fibonacci(1) << endl;// 1
+    cout << fibonacci(2) << endl;// 1
+    cout << fibonacci(3) << endl;// 2
+    cout << fibonacci(4) << endl;// 3 
+}
