@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 class Stack{
     private:
         int top;
@@ -69,5 +71,5 @@ int main() {
     stack.Push(2);
     stack.Push(3);
     stack.Pop(); // 3
-    std::cout << stack.Size(); // 2 
+    cout << stack.Size(); // 2 
 }
